@@ -1,4 +1,6 @@
-on: push
+on:
+  schedule:
+    - cron: '0 21 * * *'
 jobs:
   main:
     permissions: write-all
